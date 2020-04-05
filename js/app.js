@@ -48,8 +48,8 @@ $(".calc").on("click" , function(){
     }else {
     var discPrice = orgPrice1 * DiscAmount1 / 100;
     var result1 = orgPrice1 - discPrice;
-    $(".displayOriginal").text(orgPrice1 + "$");
-    $(".displayDiscount").text(discPrice + "$");
-    $(".displayResult").text(result1 + "$");
+    $(".displayOriginal").text(orgPrice1);
+    $(".displayDiscount").text(discPrice);
+    $(".displayResult").text(result1);
     }
 });
