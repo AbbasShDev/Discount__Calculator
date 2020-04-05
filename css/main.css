@@ -28,6 +28,13 @@ h3{
   background: #CDB5C7;
   
 }
+
+#DigitMasg1{
+ color: red; 
+}
+#DigitMasg2{
+  color: red; 
+ }
 .form-control{
   border:2px solid #CDB5C7;
   background:none;
